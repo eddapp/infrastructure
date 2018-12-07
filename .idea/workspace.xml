@@ -41,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nginx/sites-enabled/django.nginx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -115,6 +115,7 @@
         <option value="$PROJECT_DIR$/nginx/sites-enabled/django.js" />
         <option value="$PROJECT_DIR$/postgres/docker-entrypoint-initdb.d/l" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.nginx" />
+        <option value="$PROJECT_DIR$/nginx/sites-enabled/django.nginx" />
       </list>
     </option>
   </component>
@@ -201,7 +202,7 @@
       <workItem from="1544128604044" duration="9486000" />
       <workItem from="1544163161472" duration="3167000" />
       <workItem from="1544167120919" duration="759000" />
-      <workItem from="1544168093417" duration="1064000" />
+      <workItem from="1544168093417" duration="2729000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1544140386117</created>
@@ -266,11 +267,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544168415415</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="moment of truth">
+      <created>1544169279880</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1544169279881</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14476000" />
+    <option name="totallyTimeSpent" value="16141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -284,7 +292,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49839744" visible="true" weight="0.29512894" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839744" visible="true" weight="0.29512894" />
       <window_info id="Structure" order="1" sideWeight="0.5016026" side_tool="true" weight="0.28612304" />
       <window_info id="Favorites" order="2" sideWeight="0.5016026" side_tool="true" weight="0.28612304" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -297,8 +305,8 @@
       <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49856734" weight="0.3280098" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4985694" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143266" side_tool="true" weight="0.3280098" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49283668" visible="true" weight="0.24815725" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5050143" side_tool="true" weight="0.42137593" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49498567" visible="true" weight="0.42137593" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -313,10 +321,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myShow1" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/infrastructure" />
@@ -328,7 +341,11 @@
     <MESSAGE value="requirements" />
     <MESSAGE value="requirementss" />
     <MESSAGE value="nginx" />
-    <option name="LAST_COMMIT_MESSAGE" value="nginx" />
+    <MESSAGE value="moment of truth" />
+    <option name="LAST_COMMIT_MESSAGE" value="moment of truth" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/env.env" />
@@ -379,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nginx/sites-enabled/django.nginx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
