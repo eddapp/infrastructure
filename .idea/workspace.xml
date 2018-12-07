@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be287bcb-1e15-44d3-9411-df2be86105be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nginx/sites-enabled/django" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/requirements" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgres/docker-entrypoint-initdb.d/myproject_web.sh" beforeDir="false" afterPath="$PROJECT_DIR$/postgres/docker-entrypoint-initdb.d/myproject_web.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/requirements" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +40,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/requirements">
+        <entry file="file://$PROJECT_DIR$/web/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
@@ -187,7 +184,7 @@
       <option name="presentableId" value="Default" />
       <updated>1544128600630</updated>
       <workItem from="1544128604044" duration="9486000" />
-      <workItem from="1544163161472" duration="1041000" />
+      <workItem from="1544163161472" duration="1141000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1544140386117</created>
@@ -224,11 +221,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544147868669</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="requirements">
+      <created>1544164370333</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544164370333</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10527000" />
+    <option name="totallyTimeSpent" value="10627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -243,7 +247,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28612304" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28612304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -257,7 +261,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5035765" side_tool="true" visible="true" weight="0.24819277" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49642345" visible="true" weight="0.24819277" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49642345" visible="true" weight="0.24819277" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -283,7 +287,8 @@
     <MESSAGE value="3" />
     <MESSAGE value="34" />
     <MESSAGE value="env file correction yaay" />
-    <option name="LAST_COMMIT_MESSAGE" value="env file correction yaay" />
+    <MESSAGE value="requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="requirements" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/env.env" />
@@ -315,6 +320,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/requirements">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nginx/sites-enabled/django">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -322,7 +334,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/requirements">
+    <entry file="file://$PROJECT_DIR$/web/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
