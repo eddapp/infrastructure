@@ -11,6 +11,7 @@ RUN apk upgrade
 RUN apk add --update python3 python3-dev postgresql-client postgresql-dev build-base gettext
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
 # Clean
 RUN apk del -r python3-dev postgresql
