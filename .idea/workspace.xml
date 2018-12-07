@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be287bcb-1e15-44d3-9411-df2be86105be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +38,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nginx/sites-enabled/django.nginx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/mydjango/mydjango/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1727" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -116,6 +132,7 @@
         <option value="$PROJECT_DIR$/postgres/docker-entrypoint-initdb.d/l" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.nginx" />
         <option value="$PROJECT_DIR$/nginx/sites-enabled/django.nginx" />
+        <option value="$PROJECT_DIR$/web/Dockerfile" />
       </list>
     </option>
   </component>
@@ -202,7 +219,7 @@
       <workItem from="1544128604044" duration="9486000" />
       <workItem from="1544163161472" duration="3167000" />
       <workItem from="1544167120919" duration="759000" />
-      <workItem from="1544168093417" duration="2729000" />
+      <workItem from="1544168093417" duration="2830000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1544140386117</created>
@@ -274,11 +291,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544169279881</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="djangoapp">
+      <created>1544171072418</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1544171072418</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16141000" />
+    <option name="totallyTimeSpent" value="16242000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,6 +315,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839744" visible="true" weight="0.29512894" />
       <window_info id="Structure" order="1" sideWeight="0.5016026" side_tool="true" weight="0.28612304" />
@@ -342,7 +367,8 @@
     <MESSAGE value="requirementss" />
     <MESSAGE value="nginx" />
     <MESSAGE value="moment of truth" />
-    <option name="LAST_COMMIT_MESSAGE" value="moment of truth" />
+    <MESSAGE value="djangoapp" />
+    <option name="LAST_COMMIT_MESSAGE" value="djangoapp" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -398,6 +424,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/mydjango/mydjango/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1727" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
