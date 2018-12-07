@@ -1,5 +1,0 @@
-Django
-redis
-django-redis
-gunicorn
-psycopg2
